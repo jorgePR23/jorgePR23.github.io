@@ -1,0 +1,131 @@
+    body {
+      font-family: "Century Gothic", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(/imagenes/plazavea.jpg);
+    }
+
+    .dashboard-container {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #2ecc71;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .dashboard {
+      flex: 1;
+      padding: 20px;
+      background-color: white;
+      margin-left: 200px;
+    }
+
+    .page-container {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+    /* Estilos para las listas desplegables */
+    .dropdown-content {
+      display: none;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #2ecc71;
+      color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      height: calc(100vh - 20px);
+      padding: 20px;
+      background-color: white;
+    }
+
+.team-member {
+  flex: 0 0 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom:56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+    .responsive-iframe-container {
+      position: relative;
+      padding-bottom:56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .responsive-iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 85%;
+    }
+ 

@@ -1,0 +1,165 @@
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.login-box {
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #241178;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 1;
+  bottom: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 1;
+  margin: 1;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dashboard {
+  flex: 6;
+  padding: 20px;
+  background-color: rgb(234, 221, 221);
+  margin-left: 200px;
+}
+
+.page-container {
+padding-top: 0;
+margin-top: 0;
+}
+
+.dashboard-title {
+font-size: 24px;
+font-weight: bold;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+/* Estilos para las listas desplegables */
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(203, 203, 247);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 20px);
+  padding: 20px;
+  background-color: white;
+}
+
+.team-member {
+flex: 0 0 200px;
+margin: 10px;
+text-align: center;
+}
+
+.team-member img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+.team-member p {
+margin: 0;
+font-size: 14px;
+font-weight: bold;
+}
+.responsive-iframe-container {
+position: relative;
+padding-bottom:56.25%;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom:56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 85%;
+}
